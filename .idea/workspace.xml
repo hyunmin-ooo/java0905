@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java0905.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/lab1/mainsquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/lab1/square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/mainDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex10/mainBicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex11/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex11/mainCylinder.java" afterDir="false" />
+    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="자바를 부탁해 제 7장 연습문제 10,11 0905">
+      <change afterPath="$PROJECT_DIR$/src/ex8_1/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_1/MainHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_2/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_2/MainDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_4/Avenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_4/MainAvenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex11/mainCylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex11/mainCylinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hyunmin-ooo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hyunmin-ooo/java0905.git&quot;,
+    &quot;accountId&quot;: &quot;864cd360-3f14-4b0e-9f16-9058a401adb5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ld4BrRrin7waMMHsiVYNSyshS7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,7 +52,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainAvenger.executor": "Run",
+    "Application.MainDrink.executor": "Run",
+    "Application.MainHero.executor": "Run",
     "Application.mainBicycle.executor": "Run",
+    "Application.mainCylinder.executor": "Run",
     "Application.mainDog.executor": "Run",
     "Application.mainsquare.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -63,7 +72,46 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.mainCylinder">
+  <component name="RunManager" selected="Application.MainAvenger">
+    <configuration name="MainAvenger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex8_4.MainAvenger" />
+      <module name="java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex8_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDrink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex8_2.MainDrink" />
+      <module name="java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex8_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex8_1.MainHero" />
+      <module name="java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex8_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mainBicycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex10.mainBicycle" />
       <module name="java0905" />
@@ -90,38 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp07.mainDog" />
-      <module name="java0905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chp07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mainsquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp07.lab1.mainsquare" />
-      <module name="java0905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chp07.lab1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainAvenger" />
+        <item itemvalue="Application.MainDrink" />
+        <item itemvalue="Application.MainHero" />
         <item itemvalue="Application.mainCylinder" />
         <item itemvalue="Application.mainBicycle" />
-        <item itemvalue="Application.mainsquare" />
-        <item itemvalue="Application.mainDog" />
       </list>
     </recent_temporary>
   </component>
@@ -141,11 +164,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725496486382</updated>
-      <workItem from="1725496487424" duration="7346000" />
+      <workItem from="1725496487424" duration="8336000" />
+      <workItem from="1725512103471" duration="19000" />
+      <workItem from="1726100547768" duration="38000" />
+      <workItem from="1726101433513" duration="7328000" />
     </task>
+    <task id="LOCAL-00001" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
+      <option name="closed" value="true" />
+      <created>1725504784582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725504784582</updated>
+    </task>
+    <task id="LOCAL-00002" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
+      <option name="closed" value="true" />
+      <created>1725504913948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725504913948</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="자바를 부탁해 제 7장 연습문제 10,11 0905" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바를 부탁해 제 7장 연습문제 10,11 0905" />
   </component>
 </project>
