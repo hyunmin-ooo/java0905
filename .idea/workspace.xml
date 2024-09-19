@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="자바를 부탁해 제 7장 연습문제 10,11 0905">
-      <change afterPath="$PROJECT_DIR$/src/ex8_1/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex8_1/MainHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex8_2/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex8_2/MainDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex8_4/Avenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex8_4/MainAvenger.java" afterDir="false" />
+    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="자바를 부탁해 제 8장 실습 8-1~4">
+      <change afterPath="$PROJECT_DIR$/src/ex8_5/MainStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_5/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_6/MainMyMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_6/MyMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_8/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex8_8/MainAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex11/mainCylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex11/mainCylinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +51,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainAccount.executor": "Run",
     "Application.MainAvenger.executor": "Run",
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainMyMath.executor": "Run",
+    "Application.MainStudent.executor": "Run",
     "Application.mainBicycle.executor": "Run",
     "Application.mainCylinder.executor": "Run",
     "Application.mainDog.executor": "Run",
@@ -72,7 +74,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainAvenger">
+  <component name="RunManager" selected="Application.MainAccount">
+    <configuration name="MainAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex8_8.MainAccount" />
+      <module name="java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex8_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainAvenger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex8_4.MainAvenger" />
       <module name="java0905" />
@@ -99,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex8_1.MainHero" />
+    <configuration name="MainMyMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex8_6.MainMyMath" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex8_1.*" />
+          <option name="PATTERN" value="ex8_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,25 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainBicycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex10.mainBicycle" />
+    <configuration name="MainStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex8_5.MainStudent" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mainCylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex11.mainCylinder" />
-      <module name="java0905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex11.*" />
+          <option name="PATTERN" value="ex8_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainAccount" />
+        <item itemvalue="Application.MainMyMath" />
+        <item itemvalue="Application.MainStudent" />
         <item itemvalue="Application.MainAvenger" />
         <item itemvalue="Application.MainDrink" />
-        <item itemvalue="Application.MainHero" />
-        <item itemvalue="Application.mainCylinder" />
-        <item itemvalue="Application.mainBicycle" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +169,9 @@
       <workItem from="1725496487424" duration="8336000" />
       <workItem from="1725512103471" duration="19000" />
       <workItem from="1726100547768" duration="38000" />
-      <workItem from="1726101433513" duration="7328000" />
+      <workItem from="1726101433513" duration="8325000" />
+      <workItem from="1726116158064" duration="3000" />
+      <workItem from="1726706220626" duration="6222000" />
     </task>
     <task id="LOCAL-00001" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
       <option name="closed" value="true" />
@@ -185,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725504913948</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="자바를 부탁해 제 8장 실습 8-1~4">
+      <option name="closed" value="true" />
+      <created>1726109555213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726109555213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="자바를 부탁해 제 7장 연습문제 10,11 0905" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바를 부탁해 제 7장 연습문제 10,11 0905" />
+    <MESSAGE value="자바를 부탁해 제 8장 실습 8-1~4" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바를 부탁해 제 8장 실습 8-1~4" />
   </component>
 </project>
