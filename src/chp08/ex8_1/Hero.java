@@ -1,4 +1,4 @@
-package ex8_1;
+package chp08.ex8_1;
 
 public class Hero {
     private String name;

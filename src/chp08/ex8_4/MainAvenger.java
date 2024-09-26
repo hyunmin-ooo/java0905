@@ -1,4 +1,4 @@
-package ex8_4;
+package chp08.ex8_4;
 
 public class MainAvenger {
     public static void main(String[] args) {

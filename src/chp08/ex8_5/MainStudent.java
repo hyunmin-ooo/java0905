@@ -1,4 +1,4 @@
-package ex8_5;
+package chp08.ex8_5;
 
 public class MainStudent {
     public static void main(String[] args) {

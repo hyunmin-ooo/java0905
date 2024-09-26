@@ -1,4 +1,4 @@
-package ex8_6;
+package chp08.ex8_6;
 
 public class MyMath {
 //  공유(static)역영 할당되는 메소드: 클래스 메소드

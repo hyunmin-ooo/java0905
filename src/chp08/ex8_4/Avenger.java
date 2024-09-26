@@ -1,4 +1,4 @@
-package ex8_4;
+package chp08.ex8_4;
 
 public class Avenger {
 

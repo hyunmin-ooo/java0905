@@ -1,4 +1,4 @@
-package ex8_8;
+package chp08.ex8_8;
 
 import java.util.Scanner;
 
@@ -7,15 +7,15 @@ public class MainAccount {
         Scanner scanner1 = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
         System.out.printf("계좌번호입력(5자리):");
-        String accountNumber = scanner1.nextLine();
+        String accNumber = scanner1.nextLine();
         System.out.printf("성명입력:");
         String name = scanner1.nextLine();
-        System.out.printf("비밀번호:");
+        System.out. printf("비밀번호:");
         String pwd = scanner1.nextLine();
         System.out.printf("입금할 금액:");
         int balance = scanner2.nextInt();
 
-        Account account = new Account(balance,accountNumber, name, pwd);
+        Account account = new Account(balance,accNumber, name, pwd);
         System.out.println(account);
 
         System.out.printf("입금:");

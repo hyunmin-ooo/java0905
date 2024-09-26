@@ -1,4 +1,4 @@
-package ex8_8;
+package chp08.ex8_8;
 
 public class Account {
     private int balance;
@@ -16,10 +16,10 @@ public class Account {
     }
 
     public void deposit(int money) {
-        balance += money;
+        balance += money;// balance = balance + money
     }
     public void withdraw(int money) {
-        balance -= money;
+        balance -= money;// balance = balance - money
     }
 
 
