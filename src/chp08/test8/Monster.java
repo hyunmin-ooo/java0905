@@ -16,11 +16,11 @@ public class Monster {
 
     public void attack(Monster enemy){
         enemy.hp -= 10;
-        System.out.println(this.name + "이(가) " + enemy.getName() + "을(를) 공격했습니다! " + enemy.getName() + "의 남은 체력: " + enemy.hp);
+        System.out.printf("%s이(가) %s을(를) 공격했습니다! %s의 남은 체력:%d\n ", this.name, enemy.getName(),enemy.getName(),enemy.hp);
     }
 
 
-    public static  void battle(Monster a, Monster b) {
+    public static void battle(Monster a, Monster b) {
         while(a.hp >0 && b.hp >0){
             Monster attacker = (Math.random()<0.5)? a: b;
             Monster defender = (attacker == a) ? b: a;

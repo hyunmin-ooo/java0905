@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="자바를 부탁해 제 8장 실습 8-5~8">
-      <change afterPath="$PROJECT_DIR$/src/chp09/ex09_3/MainRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex08_9/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex08_9/MainCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test7/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test7/MainAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test8/MainMonster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test8/Monster.java" afterDir="false" />
+    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="자바를 부탁해 제 8장 9장 실습">
+      <change afterPath="$PROJECT_DIR$/src/chp09/ex09_4/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Novice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/RPGGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Wizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex8_8/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex8_8/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex8_8/MainAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex8_8/MainAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp08/test8/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/test8/Monster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListTest.executor": "Run",
     "Application.MainAccount.executor": "Run",
     "Application.MainAvenger.executor": "Run",
     "Application.MainCoffee.executor": "Run",
@@ -63,6 +62,7 @@
     "Application.MainMyMath.executor": "Run",
     "Application.MainRandom.executor": "Run",
     "Application.MainStudent.executor": "Run",
+    "Application.RPGGameTest.executor": "Run",
     "Application.mainBicycle.executor": "Run",
     "Application.mainCylinder.executor": "Run",
     "Application.mainDog.executor": "Run",
@@ -81,13 +81,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainRandom">
-    <configuration name="MainAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex8_8.MainAccount" />
+  <component name="RunManager" selected="Application.RPGGameTest">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp09.ex09_4.ArrayListTest" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex8_8.*" />
+          <option name="PATTERN" value="chp09.ex09_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex08_9.MainCoffee" />
+    <configuration name="MainAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp08.ex8_8.MainAccount" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex08_9.*" />
+          <option name="PATTERN" value="chp08.ex8_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
       </method>
     </configuration>
     <configuration name="MainMonster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test8.MainMonster" />
+      <option name="MAIN_CLASS_NAME" value="chp08.test8.MainMonster" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test8.*" />
+          <option name="PATTERN" value="chp08.test8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test7.MainAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test7.MainAccount" />
+    <configuration name="RPGGameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp10.ex10_1.RPGGameTest" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test7.*" />
+          <option name="PATTERN" value="chp10.ex10_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainRandom" />
-        <item itemvalue="Application.MainMonster" />
-        <item itemvalue="Application.test7.MainAccount" />
-        <item itemvalue="Application.MainCoffee" />
+        <item itemvalue="Application.RPGGameTest" />
+        <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.MainAccount" />
+        <item itemvalue="Application.MainMonster" />
+        <item itemvalue="Application.MainRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,10 @@
       <workItem from="1726116158064" duration="3000" />
       <workItem from="1726706220626" duration="9195000" />
       <workItem from="1726722019960" duration="3000" />
-      <workItem from="1727309628588" duration="8700000" />
+      <workItem from="1727309628588" duration="11118000" />
+      <workItem from="1727396074264" duration="59000" />
+      <workItem from="1727681841224" duration="49000" />
+      <workItem from="1728518961734" duration="6209000" />
     </task>
     <task id="LOCAL-00001" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
       <option name="closed" value="true" />
@@ -214,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726714075768</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="자바를 부탁해 제 8장 9장 실습">
+      <option name="closed" value="true" />
+      <created>1727318736872</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727318736872</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +235,7 @@
     <MESSAGE value="자바를 부탁해 제 7장 연습문제 10,11 0905" />
     <MESSAGE value="자바를 부탁해 제 8장 실습 8-1~4" />
     <MESSAGE value="자바를 부탁해 제 8장 실습 8-5~8" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바를 부탁해 제 8장 실습 8-5~8" />
+    <MESSAGE value="자바를 부탁해 제 8장 9장 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바를 부탁해 제 8장 9장 실습" />
   </component>
 </project>
