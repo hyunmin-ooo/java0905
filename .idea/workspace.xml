@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="자바를 부탁해 제 8장 9장 실습">
-      <change afterPath="$PROJECT_DIR$/src/chp09/ex09_4/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Novice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/RPGGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Wizard.java" afterDir="false" />
+    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="자바를 부탁해 10장 상속 1절 상속의 개요">
+      <change afterPath="$PROJECT_DIR$/src/jdbc/JDBCConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp08/test8/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/test8/Monster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,7 @@
     "Application.MainCoffee.executor": "Run",
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainJDBCTest.executor": "Run",
     "Application.MainMonster.executor": "Run",
     "Application.MainMyMath.executor": "Run",
     "Application.MainRandom.executor": "Run",
@@ -72,16 +69,20 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Java/java0905/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RPGGameTest">
+  <component name="RunManager" selected="Application.MainJDBCTest">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chp09.ex09_4.ArrayListTest" />
       <module name="java0905" />
@@ -108,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainMonster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp08.test8.MainMonster" />
+    <configuration name="MainJDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.MainJDBCTest" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chp08.test8.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp09.ex09_3.MainRandom" />
+    <configuration name="MainMonster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp08.test8.MainMonster" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chp09.ex09_3.*" />
+          <option name="PATTERN" value="chp08.test8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainJDBCTest" />
         <item itemvalue="Application.RPGGameTest" />
         <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.MainAccount" />
         <item itemvalue="Application.MainMonster" />
-        <item itemvalue="Application.MainRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +184,8 @@
       <workItem from="1727309628588" duration="11118000" />
       <workItem from="1727396074264" duration="59000" />
       <workItem from="1727681841224" duration="49000" />
-      <workItem from="1728518961734" duration="6209000" />
+      <workItem from="1728518961734" duration="7098000" />
+      <workItem from="1729042182303" duration="2848000" />
     </task>
     <task id="LOCAL-00001" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
       <option name="closed" value="true" />
@@ -225,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727318736872</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="자바를 부탁해 10장 상속 1절 상속의 개요">
+      <option name="closed" value="true" />
+      <created>1728528478605</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728528478605</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +246,7 @@
     <MESSAGE value="자바를 부탁해 제 8장 실습 8-1~4" />
     <MESSAGE value="자바를 부탁해 제 8장 실습 8-5~8" />
     <MESSAGE value="자바를 부탁해 제 8장 9장 실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바를 부탁해 제 8장 9장 실습" />
+    <MESSAGE value="자바를 부탁해 10장 상속 1절 상속의 개요" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바를 부탁해 10장 상속 1절 상속의 개요" />
   </component>
 </project>
