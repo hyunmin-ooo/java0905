@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="자바를 부탁해 10장 상속 1절 상속의 개요">
-      <change afterPath="$PROJECT_DIR$/src/jdbc/JDBCConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
+    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="JDBCConnector실습">
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +61,7 @@
     "Application.MainMonster.executor": "Run",
     "Application.MainMyMath.executor": "Run",
     "Application.MainRandom.executor": "Run",
+    "Application.MainShape.executor": "Run",
     "Application.MainStudent.executor": "Run",
     "Application.RPGGameTest.executor": "Run",
     "Application.mainBicycle.executor": "Run",
@@ -66,7 +70,6 @@
     "Application.mainsquare.executor": "Run",
     "Application.test7.MainAccount.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
@@ -82,7 +85,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainJDBCTest">
+  <component name="RunManager" selected="Application.MainShape">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chp09.ex09_4.ArrayListTest" />
       <module name="java0905" />
@@ -122,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainMonster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp08.test8.MainMonster" />
+    <configuration name="MainShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp10.ex10_4.MainShape" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chp08.test8.*" />
+          <option name="PATTERN" value="chp10.ex10_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainShape" />
         <item itemvalue="Application.MainJDBCTest" />
         <item itemvalue="Application.RPGGameTest" />
         <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.MainAccount" />
-        <item itemvalue="Application.MainMonster" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +188,9 @@
       <workItem from="1727396074264" duration="59000" />
       <workItem from="1727681841224" duration="49000" />
       <workItem from="1728518961734" duration="7098000" />
-      <workItem from="1729042182303" duration="2848000" />
+      <workItem from="1729042182303" duration="4645000" />
+      <workItem from="1729070871388" duration="83000" />
+      <workItem from="1729124678377" duration="1253000" />
     </task>
     <task id="LOCAL-00001" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
       <option name="closed" value="true" />
@@ -235,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728528478605</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JDBCConnector실습">
+      <option name="closed" value="true" />
+      <created>1729046236095</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729046236095</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +260,7 @@
     <MESSAGE value="자바를 부탁해 제 8장 실습 8-5~8" />
     <MESSAGE value="자바를 부탁해 제 8장 9장 실습" />
     <MESSAGE value="자바를 부탁해 10장 상속 1절 상속의 개요" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바를 부탁해 10장 상속 1절 상속의 개요" />
+    <MESSAGE value="JDBCConnector실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBCConnector실습" />
   </component>
 </project>
