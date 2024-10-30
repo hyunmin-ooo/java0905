@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="chp10_4장 실습">
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/ProductView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/controller/BookManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/dto/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/view/BookManageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +54,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayListTest.executor": "Run",
+    "Application.BookManageController.executor": "Run",
     "Application.MainAccount.executor": "Run",
     "Application.MainAvenger.executor": "Run",
     "Application.MainCoffee.executor": "Run",
+    "Application.MainController.executor": "Run",
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
     "Application.MainJDBCTest.executor": "Run",
@@ -58,6 +66,7 @@
     "Application.MainMyMath.executor": "Run",
     "Application.MainRandom.executor": "Run",
     "Application.MainShape.executor": "Run",
+    "Application.MainSquare.executor": "Run",
     "Application.MainStudent.executor": "Run",
     "Application.RPGGameTest.executor": "Run",
     "Application.mainBicycle.executor": "Run",
@@ -81,13 +90,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainSquare">
-    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp09.ex09_4.ArrayListTest" />
+  <component name="RunManager" selected="Application.MainController">
+    <configuration name="BookManageController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="library.controller.BookManageController" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chp09.ex09_4.*" />
+          <option name="PATTERN" value="library.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc3.controller.MainController" />
+      <module name="java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc3.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,26 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RPGGameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp10.ex10_1.RPGGameTest" />
-      <module name="java0905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chp10.ex10_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainController" />
+        <item itemvalue="Application.BookManageController" />
         <item itemvalue="Application.MainSquare" />
         <item itemvalue="Application.MainShape" />
         <item itemvalue="Application.MainJDBCTest" />
-        <item itemvalue="Application.RPGGameTest" />
-        <item itemvalue="Application.ArrayListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +195,10 @@
       <workItem from="1728518961734" duration="7098000" />
       <workItem from="1729042182303" duration="4645000" />
       <workItem from="1729070871388" duration="83000" />
-      <workItem from="1729124678377" duration="1748000" />
+      <workItem from="1729124678377" duration="1837000" />
+      <workItem from="1729755353715" duration="303000" />
+      <workItem from="1729755668814" duration="2727000" />
+      <workItem from="1730246801837" duration="6930000" />
     </task>
     <task id="LOCAL-00001" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
       <option name="closed" value="true" />
@@ -260,7 +272,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729126055511</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="chp10_4장 실습">
+      <option name="closed" value="true" />
+      <created>1729126496989</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729126496989</updated>
+    </task>
+    <task id="LOCAL-00011" summary="chp10_4장 실습">
+      <option name="closed" value="true" />
+      <created>1729126523362</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729126523362</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +301,7 @@
     <MESSAGE value="자바를 부탁해 제 8장 9장 실습" />
     <MESSAGE value="자바를 부탁해 10장 상속 1절 상속의 개요" />
     <MESSAGE value="JDBCConnector실습" />
+    <MESSAGE value="업캐스팅: 범위제한 실습" />
     <MESSAGE value="chp10_4장 실습" />
     <option name="LAST_COMMIT_MESSAGE" value="chp10_4장 실습" />
   </component>
