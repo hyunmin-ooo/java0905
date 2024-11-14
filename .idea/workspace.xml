@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="10장 상속, 메소드오버라이딩">
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_10/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_10/MainItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/Item2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/MainWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/MainPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/pack1/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/pack2/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/MainAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/protected1/MainChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/protected1/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/protected1/test/Child.java" afterDir="false" />
+    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="10장 상속">
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/G24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/MainIphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_4/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_4/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_4/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_4/MainFlyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_4/Rocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/MainVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,7 +75,9 @@
     "Application.MainConstructor.executor": "Run",
     "Application.MainController.executor": "Run",
     "Application.MainDrink.executor": "Run",
+    "Application.MainFlyable.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainIphone.executor": "Run",
     "Application.MainItem.executor": "Run",
     "Application.MainJDBCTest.executor": "Run",
     "Application.MainMonster.executor": "Run",
@@ -84,6 +87,7 @@
     "Application.MainShape.executor": "Run",
     "Application.MainSquare.executor": "Run",
     "Application.MainStudent.executor": "Run",
+    "Application.MainVehicle.executor": "Run",
     "Application.MainWeapon.executor": "Run",
     "Application.RPGGameTest.executor": "Run",
     "Application.chp10.ex10_8.MainController.executor": "Run",
@@ -95,7 +99,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
+    "last_opened_file_path": "D:/Java/java0905/src/chp11/ex11_1_2_3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,6 +112,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\java0905\src\chp11\ex11_1_2_3" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="BookManageController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="library.controller.BookManageController" />
@@ -218,7 +227,8 @@
       <workItem from="1729755668814" duration="2727000" />
       <workItem from="1730246801837" duration="7447000" />
       <workItem from="1730333395564" duration="9016000" />
-      <workItem from="1730938794969" duration="8166000" />
+      <workItem from="1730938794969" duration="9050000" />
+      <workItem from="1731544361284" duration="7576000" />
     </task>
     <task id="LOCAL-00001" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
       <option name="closed" value="true" />
@@ -324,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730342691737</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="10장 상속">
+      <option name="closed" value="true" />
+      <created>1730947656395</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730947656395</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +359,7 @@
     <MESSAGE value="chp10_4장 실습" />
     <MESSAGE value="JDBC Programing &amp; 패키지를 MVC 모델링에 따라 분류하여 사용2" />
     <MESSAGE value="10장 상속, 메소드오버라이딩" />
-    <option name="LAST_COMMIT_MESSAGE" value="10장 상속, 메소드오버라이딩" />
+    <MESSAGE value="10장 상속" />
+    <option name="LAST_COMMIT_MESSAGE" value="10장 상속" />
   </component>
 </project>
