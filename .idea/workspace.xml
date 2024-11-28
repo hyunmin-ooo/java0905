@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="11장 인터페이스(개념,상수,추상메소드,default메소드,static메소드)">
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_7/Dayinterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_7/MainConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_8/Healer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_8/HolyKnight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_8/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_8/MagicKnight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_8/Magician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_8/MainGameSimulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_1/MainException12_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_1/MainException12_3.java" afterDir="false" />
+    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="12장 예외발생 이유 및 처리방법 1">
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_4/MainNullPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_4/NullPointerExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_5/InterruptedExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_5/MainInterrupted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MainMyAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MyAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MainThrows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MyAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/ThrowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/MainBankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,16 +76,20 @@
     "Application.MainFlyable.executor": "Run",
     "Application.MainGameSimulation.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainInterrupted.executor": "Run",
     "Application.MainIphone.executor": "Run",
     "Application.MainItem.executor": "Run",
     "Application.MainJDBCTest.executor": "Run",
     "Application.MainMonster.executor": "Run",
+    "Application.MainMyAgeException.executor": "Run",
     "Application.MainMyMath.executor": "Run",
+    "Application.MainNullPointer.executor": "Run",
     "Application.MainPro.executor": "Run",
     "Application.MainRandom.executor": "Run",
     "Application.MainShape.executor": "Run",
     "Application.MainSquare.executor": "Run",
     "Application.MainStudent.executor": "Run",
+    "Application.MainThrows.executor": "Run",
     "Application.MainVehicle.executor": "Run",
     "Application.MainWeapon.executor": "Run",
     "Application.RPGGameTest.executor": "Run",
@@ -114,6 +119,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\java0905\src\chp11\ex11_1_2_3" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chp12.ex12_7" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="BookManageController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -142,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp10.ex10_4.MainShape" />
+    <configuration name="MainNullPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp12.ex12_4.MainNullPointer" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chp10.ex10_4.*" />
+          <option name="PATTERN" value="chp12.ex12_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainNullPointer" />
         <item itemvalue="Application.MainWeapon" />
         <item itemvalue="Application.BookManageController" />
         <item itemvalue="Application.MainController" />
         <item itemvalue="Application.MainSquare" />
-        <item itemvalue="Application.MainShape" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +235,9 @@
       <workItem from="1730333395564" duration="9016000" />
       <workItem from="1730938794969" duration="9050000" />
       <workItem from="1731544361284" duration="8346000" />
-      <workItem from="1732148129522" duration="7564000" />
+      <workItem from="1732148129522" duration="8353000" />
+      <workItem from="1732251736487" duration="9000" />
+      <workItem from="1732754487991" duration="6066000" />
     </task>
     <task id="LOCAL-00001" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
       <option name="closed" value="true" />
@@ -349,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731552435127</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="12장 예외발생 이유 및 처리방법 1">
+      <option name="closed" value="true" />
+      <created>1732157460998</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732157460998</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,6 +386,7 @@
     <MESSAGE value="10장 상속, 메소드오버라이딩" />
     <MESSAGE value="10장 상속" />
     <MESSAGE value="11장 인터페이스(개념,상수,추상메소드,default메소드,static메소드)" />
-    <option name="LAST_COMMIT_MESSAGE" value="11장 인터페이스(개념,상수,추상메소드,default메소드,static메소드)" />
+    <MESSAGE value="12장 예외발생 이유 및 처리방법 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="12장 예외발생 이유 및 처리방법 1" />
   </component>
 </project>
