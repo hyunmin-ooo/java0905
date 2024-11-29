@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="12장 예외발생 이유 및 처리방법 1">
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_4/MainNullPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_4/NullPointerExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_5/InterruptedExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_5/MainInterrupted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MainMyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MainThrows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/ThrowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/MainBankAccount.java" afterDir="false" />
+    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="12장 예외의 종류, throw, throws, 파일입출력">
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/MenuView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,65 +50,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Animal.executor": "Run",
-    "Application.AreaCalculator.executor": "Run",
-    "Application.ArrayListTest.executor": "Run",
-    "Application.BookManageController.executor": "Run",
-    "Application.MainAccount.executor": "Run",
-    "Application.MainAnimal.executor": "Run",
-    "Application.MainArcher.executor": "Run",
-    "Application.MainAvenger.executor": "Run",
-    "Application.MainChild.executor": "Run",
-    "Application.MainCoffee.executor": "Run",
-    "Application.MainConstructor.executor": "Run",
-    "Application.MainController.executor": "Run",
-    "Application.MainDrink.executor": "Run",
-    "Application.MainException12_1.executor": "Run",
-    "Application.MainException12_3.executor": "Run",
-    "Application.MainFlyable.executor": "Run",
-    "Application.MainGameSimulation.executor": "Run",
-    "Application.MainHero.executor": "Run",
-    "Application.MainInterrupted.executor": "Run",
-    "Application.MainIphone.executor": "Run",
-    "Application.MainItem.executor": "Run",
-    "Application.MainJDBCTest.executor": "Run",
-    "Application.MainMonster.executor": "Run",
-    "Application.MainMyAgeException.executor": "Run",
-    "Application.MainMyMath.executor": "Run",
-    "Application.MainNullPointer.executor": "Run",
-    "Application.MainPro.executor": "Run",
-    "Application.MainRandom.executor": "Run",
-    "Application.MainShape.executor": "Run",
-    "Application.MainSquare.executor": "Run",
-    "Application.MainStudent.executor": "Run",
-    "Application.MainThrows.executor": "Run",
-    "Application.MainVehicle.executor": "Run",
-    "Application.MainWeapon.executor": "Run",
-    "Application.RPGGameTest.executor": "Run",
-    "Application.chp10.ex10_8.MainController.executor": "Run",
-    "Application.mainBicycle.executor": "Run",
-    "Application.mainCylinder.executor": "Run",
-    "Application.mainDog.executor": "Run",
-    "Application.mainsquare.executor": "Run",
-    "Application.test7.MainAccount.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/java0905/src/chp11/ex11_1_2_3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Java/java0905/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Animal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AreaCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookManageController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAnimal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainArcher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAvenger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainBankAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainChild.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCoffee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainDrink.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainException12_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainException12_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainFlyable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainGameSimulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainHero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainInterrupted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainIphone.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainItem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainJDBCTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainMonster.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainMyAgeException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainMyMath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainNullPointer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainPro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainRandom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainShape.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainSquare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainStudent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainThrows.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainVehicle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainWeapon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RPGGameTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chp10.ex10_8.MainController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainBicycle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainCylinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainDog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainsquare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test7.MainAccount.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/java0905/src/chp11/ex11_1_2_3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java/java0905/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\java0905\src\chp11\ex11_1_2_3" />
@@ -138,6 +133,9 @@
       </method>
     </configuration>
     <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="-Dconsole.encoding" value="UTF-8" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="jdbc3.controller.MainController" />
       <module name="java0905" />
       <extension name="coverage">
@@ -191,10 +189,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainController" />
         <item itemvalue="Application.MainNullPointer" />
         <item itemvalue="Application.MainWeapon" />
         <item itemvalue="Application.BookManageController" />
-        <item itemvalue="Application.MainController" />
         <item itemvalue="Application.MainSquare" />
       </list>
     </recent_temporary>
@@ -202,8 +200,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
       </set>
     </attachedChunks>
   </component>
@@ -237,7 +235,10 @@
       <workItem from="1731544361284" duration="8346000" />
       <workItem from="1732148129522" duration="8353000" />
       <workItem from="1732251736487" duration="9000" />
-      <workItem from="1732754487991" duration="6066000" />
+      <workItem from="1732754487991" duration="6341000" />
+      <workItem from="1732769694064" duration="44000" />
+      <workItem from="1732859683724" duration="2150000" />
+      <workItem from="1732862271647" duration="1129000" />
     </task>
     <task id="LOCAL-00001" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
       <option name="closed" value="true" />
@@ -367,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732157460998</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="12장 예외의 종류, throw, throws, 파일입출력">
+      <option name="closed" value="true" />
+      <created>1732762113305</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732762113305</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +396,7 @@
     <MESSAGE value="10장 상속" />
     <MESSAGE value="11장 인터페이스(개념,상수,추상메소드,default메소드,static메소드)" />
     <MESSAGE value="12장 예외발생 이유 및 처리방법 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="12장 예외발생 이유 및 처리방법 1" />
+    <MESSAGE value="12장 예외의 종류, throw, throws, 파일입출력" />
+    <option name="LAST_COMMIT_MESSAGE" value="12장 예외의 종류, throw, throws, 파일입출력" />
   </component>
 </project>
