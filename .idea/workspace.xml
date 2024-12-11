@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="12장 예외의 종류, throw, throws, 파일입출력">
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/MenuView.java" afterDir="false" />
+    <list default="true" id="44f2100e-9c3a-4904-9a36-8e24deedc709" name="Changes" comment="주문검색프로그램 UI작성">
+      <change afterPath="$PROJECT_DIR$/src/_gui/controller/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/view/OrderInfoView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_10/MainBankAccountReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,7 @@
     &quot;Application.MainArcher.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainAvenger.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainBankAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainBankAccountReader.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainChild.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainCoffee.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainConstructor.executor&quot;: &quot;Run&quot;,
@@ -69,6 +72,7 @@
     &quot;Application.MainException12_1.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainException12_3.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainFlyable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainFrame.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainGameSimulation.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainHero.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainInterrupted.executor&quot;: &quot;Run&quot;,
@@ -88,6 +92,7 @@
     &quot;Application.MainVehicle.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainWeapon.executor&quot;: &quot;Run&quot;,
     &quot;Application.RPGGameTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application._gui.controller.MainFrame.executor&quot;: &quot;Run&quot;,
     &quot;Application.chp10.ex10_8.MainController.executor&quot;: &quot;Run&quot;,
     &quot;Application.mainBicycle.executor&quot;: &quot;Run&quot;,
     &quot;Application.mainCylinder.executor&quot;: &quot;Run&quot;,
@@ -115,10 +120,11 @@
       <recent name="D:\Java\java0905\src\chp11\ex11_1_2_3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_gui.controller" />
       <recent name="chp12.ex12_7" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application._gui.controller.MainFrame">
     <configuration name="BookManageController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="library.controller.BookManageController" />
       <module name="java0905" />
@@ -148,6 +154,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_gui.MainFrame" />
+      <module name="java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainNullPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chp12.ex12_4.MainNullPointer" />
       <module name="java0905" />
@@ -161,25 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp10.ex10_4.MainSquare" />
+    <configuration name="_gui.controller.MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_gui.controller.MainFrame" />
       <module name="java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chp10.ex10_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainWeapon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp10.ex10_11.MainWeapon" />
-      <module name="java0905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chp10.ex10_11.*" />
+          <option name="PATTERN" value="_gui.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._gui.controller.MainFrame" />
+        <item itemvalue="Application.MainFrame" />
+        <item itemvalue="Application.BookManageController" />
         <item itemvalue="Application.MainController" />
         <item itemvalue="Application.MainNullPointer" />
-        <item itemvalue="Application.MainWeapon" />
-        <item itemvalue="Application.BookManageController" />
-        <item itemvalue="Application.MainSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +244,10 @@
       <workItem from="1732754487991" duration="6341000" />
       <workItem from="1732769694064" duration="44000" />
       <workItem from="1732859683724" duration="2150000" />
-      <workItem from="1732862271647" duration="1129000" />
+      <workItem from="1732862271647" duration="1201000" />
+      <workItem from="1733219604982" duration="2000" />
+      <workItem from="1733358225396" duration="7309000" />
+      <workItem from="1733875829054" duration="9153000" />
     </task>
     <task id="LOCAL-00001" summary="자바를 부탁해 제 7장 연습문제 10,11 0905">
       <option name="closed" value="true" />
@@ -376,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732762113305</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="제품테이블에 검색기능 추가">
+      <option name="closed" value="true" />
+      <created>1732863458456</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732863458456</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,6 +414,7 @@
     <MESSAGE value="11장 인터페이스(개념,상수,추상메소드,default메소드,static메소드)" />
     <MESSAGE value="12장 예외발생 이유 및 처리방법 1" />
     <MESSAGE value="12장 예외의 종류, throw, throws, 파일입출력" />
-    <option name="LAST_COMMIT_MESSAGE" value="12장 예외의 종류, throw, throws, 파일입출력" />
+    <MESSAGE value="제품테이블에 검색기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="제품테이블에 검색기능 추가" />
   </component>
 </project>
